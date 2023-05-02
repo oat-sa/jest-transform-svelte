@@ -31,11 +31,11 @@
 		"babel-plugin-dynamic-import-node": "^2.3.3"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.14.3",
-		"@oat-sa/eslint-config-tao": "^1.1.1",
+		"@babel/core": "^7.21.4",
+		"@oat-sa/eslint-config-tao": "^2.0.0",
 		"@oat-sa/prettier-config": "^0.1.1",
-		"eslint": "^7.27.0",
-		"prettier": "^1.18.2",
+		"eslint": "^8.39.0",
+		"prettier": "^2.8.8",
 		"svelte": "^3.32.3"
 	}
 }
