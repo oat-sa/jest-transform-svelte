@@ -3,6 +3,9 @@
 	"version": "0.1.1",
 	"description": "Jest Transformer for Svelte",
 	"main": "index.js",
+	"engines": {
+		"node": ">=22.0.0"
+	},
 	"files": [
 		"index.js",
 		"preprocess.js"
@@ -33,12 +36,13 @@
 		"babel-plugin-dynamic-import-node": "^2.3.3"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.21.4",
-		"@oat-sa/eslint-config-tao": "^2.0.0",
+		"@babel/core": "^7.26.0",
+		"@oat-sa/eslint-config-tao": "^4.0.1",
 		"@oat-sa/prettier-config": "^0.1.1",
-		"eslint": "^8.39.0",
+		"eslint": "^8.57.0",
+		"jest": "^27.5.1",
 		"prettier": "^2.8.8",
-		"svelte": "^3.32.3"
+		"svelte": "^3.59.2"
 	},
 	"homepage": "https://github.com/oat-sa/jest-transform-svelte#readme"
 }

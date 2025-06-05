@@ -6,7 +6,11 @@ module.exports = {
 		'^.+\\.svelte$': [
 			'jest-transform-svelte',
 			{
-				preprocess: sveltePreprocess(),
+				preprocess: sveltePreprocess({
+					typescript: {
+						tsconfigFile: './tsconfig.json'
+					}
+				}),
 				debug: false,
 				noStyles: true,
 				compilerOptions: {}
@@ -16,5 +20,6 @@ module.exports = {
 	moduleFileExtensions: ['js', 'svelte'],
 	coverageReporters: ['html'],
 	bail: false,
-	verbose: false
+	verbose: false,
+	testEnvironment: 'jsdom'
 };
